@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif !important;
+    background-color: black !important;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+h1{
+    color: #adfcff!important;
+    text-align: center;
+    margin: 100px 0 0 650px !important;
+    display: inline-block;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+svg{
+    position: absolute;
+}
+
+svg:hover{
+    color: rgb(255, 255, 255) !important;
+}
+  
+.topnav a {
+    display: inline-block;
+    margin-left: 440px;
+    color: #adfcff;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.topnav a:hover {
+    color: #ddd;
+    transition: all 0.5s ease;
+    background-color: rgb(161, 187, 235);
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.getuser{
+    margin-left: 80px !important;
+    
+}
+
+.img .avatar{
+    margin: 5px 0 30px 100px;
+    border-radius: 5.25rem !important;
+}
+
+.cards{
+    margin: -45px 10px  30px ;
+    box-shadow: 2px 2px 2px  rgb(255, 255, 255);
+}
+
+.col-10 .cards:hover{
+    background-color: rgb(220, 251, 255);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(252, 252, 252);
+    transition: all 1s ease;
+    cursor: pointer;
+    margin: -45px 10px  30px ;
+}
+
+.col-md-4{
+    width: 28%!important;
+}
+
+.container-fluid{
+    margin-right: -117px!important;
+}
+
+.loader{
+    margin-top: 150px!important;;
+    width:250px;
+    margin: auto;
+    display:block;
+    
+}
